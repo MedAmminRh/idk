@@ -5,7 +5,12 @@
 .welcome{
     margin-top: 200px;
     font-size: 500%;
+    animation: ani 1.5s;
 }
+@keyframes ani{0%{opacity: 0;
+margin-right: 600px;}
+100%{opacity: 1;
+margin-right: 0;}}
 .yellow-side{
     background-color: rgb(255, 255, 0);
     min-height: 98vh;
@@ -18,7 +23,10 @@ body{
     color: yellow;
     margin-left: 100px;
     margin-top: 100px;
+    animation: ani2 1.2s;
 }
+@keyframes ani2{0%{opacity: 0;}
+100%{opacity: 1;}}
 img{
     width: 100px;
 }
@@ -26,53 +34,94 @@ img{
 
     position: absolute;
     width: 20px;
-    margin-top: 10px;
-    margin-left: 60px;
-}
-button{
-    display: block;
+    margin-top: 5px;
+    margin-left: 45px;
 }
 .google{
     width: 300px;
-    font-family: MV Boli;
-    font-weight: bold;
-    border: none;
-    height: 40px;
-    padding-left: 30px;
+    border: 3px solid yellow;
+    text-align: center;
+    transition: background-color 0.3s;
+
+    height: 30px;
     border-radius: 20px;
     background-color: yellow;
 }
 .Signup{
     width: 300px;
-    font-family: MV Boli;
-    font-weight: bold;
     border: 3px solid yellow;
-    height: 40px;
+    height: 30px;
+    text-align: center;
+
     border-radius: 20px;
     margin-top: 10px;
     background-color: yellow;
-    transition: background-color 0.2s,
-                color 0.2s;
+    transition: background-color 0.3s;
 }
-.Signup:hover{
+#login{
+    color: yellow;
+    display: block;
+  
+
+    width: 100%;
+    height: 100%;
+}
+#google{
+    font-size: 17px;
+    color: black;
+    display: block;
+    width: 100%;
+height: 100%;
+transition: color 0.3s;
+}
+.google:hover, #google:hover{
     background-color: rgb(0, 0, 0);
     color: yellow;
+    border-radius: 15px;
+
+}
+#Signup{
+    display: block;
+    color: black;
+    width: 100%;
+    transition: color 0.3s;
+    height: 100%;
+    border-radius: 15px;
+}
+.Signup:hover, #Signup:hover{
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    border-radius: 15px;
+
 }
 .login{
     background-color: rgb(0, 0, 0);
-    color: yellow;
     margin-top: 10px;
+    
+    text-align: center;
     width: 300px;
-    font-family: MV Boli;
-    font-weight: bold;
     border: 3px solid yellow;
-    height: 40px;
+    height: 30px;
     border-radius: 20px;
     transition: opacity 0.4s;
 }
 .login:hover{
     opacity: 0.8;
+    border-radius: 15px;
 }
 .login:active{
     opacity: 0.6;
+    border-radius: 15px;
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#a{
+
+    position: absolute;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 45px;
 }

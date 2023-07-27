@@ -1,0 +1,81 @@
+*{
+    color: yellow;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    font-family: MV boli;
+}
+.back{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-family: MV boli;
+}
+.base{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border: none;
+    width: 400px;
+    align-items: center;
+    animation: ani 1.2s 1;
+}
+@keyframes ani{0%{opacity: 0;}
+100%{opacity: 1;}}
+img{
+    display: block;
+}
+.email,.password{
+    display: block;
+    width: 350px;
+    margin-left: 23px;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid yellow;
+    border-radius: 3px;
+    outline: none;
+    font-family: MV boli;
+    background-color: transparent;
+    font-size: 14px;
+    
+}
+::-webkit-input-placeholder{
+    color: yellow;
+    opacity: 0.8;
+}
+.btn1{
+    width: 270px;
+}
+.btn2{
+    width: 80px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    border: 3px solid yellow;
+    font-family: MV boli;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.4s,
+    color   0.4s,
+    opacity 0.3s;
+}
+p{
+    font-size: 12px;
+}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: yellow;
+}
+button:active{
+    opacity: 0.6;
+}
+img{
+    width: 100px;
+    margin: auto;
+}
