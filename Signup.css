@@ -9,7 +9,7 @@ body{
 
 }
 .fn,.ln,.pw,.cpw{
-    width: 195px;
+    width: 145px;
     background-color: black;
     color: yellow;
     font-family: MV boli;
@@ -27,7 +27,7 @@ img{
     margin: auto;
 }
 .us,.em,.bd{
-    width: 398px;
+    width: 300px;
     border: none;
     background-color: black;
     color: yellow;
@@ -39,7 +39,7 @@ img{
     margin-top: 20px;
 }
 .bd{
-    width: 400px;
+    width: 300px;
 }
 .base{
     text-align: center;
@@ -57,7 +57,7 @@ img{
     margin-top: 10px;
     display: inline-block;
     text-align: center;
-    width: 300px;
+    width: 210px;
     border: 3px solid yellow;
     height: 30px;
     border-radius: 20px;
@@ -132,4 +132,7 @@ p{
 
     color: yellow;
     font-family: MV boli;
+}
+@media (max-height: 767px) {
+
 }
