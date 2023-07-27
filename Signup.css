@@ -1,0 +1,92 @@
+*{
+    background-color: black;
+    color: yellow;
+    font-family: MV boli;
+}
+::-webkit-input-placeholder{
+    color: yellow;
+    opacity: 0.7;
+
+}
+.fn,.ln,.pw,.cpw{
+    width: 195px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid yellow;
+    border-radius: 2px;
+    height: 35px;
+    margin-top: 20px;
+
+}
+img{
+    display: flex;
+    width: 100px;
+    margin: auto;
+}
+.us,.em,.bd{
+    width: 398px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid yellow;
+    border-radius: 2px;
+    height: 35px;
+    margin-top: 20px;
+}
+.bd{
+    width: 400px;
+}
+.base{
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    border: none;
+    width: 410px;
+    align-items: center;
+    animation: ani 1.2s 1;
+}
+@keyframes ani{0%{opacity: 0;}
+100%{opacity: 1;}}
+.btn1{
+    width: 300px;
+}
+.btn2{
+    width: 95px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    border: 3px solid yellow;
+    font-family: MV boli;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 23px;
+    border-radius: 20px;
+    transition: background-color 0.4s,
+    color   0.4s,
+    opacity 0.3s;
+}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+    border-radius: 12px;
+
+    color: yellow;
+}
+button:active{
+    opacity: 0.6;
+    border-radius: 12px;
+
+}
+p{
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.back{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-family: MV boli;
+}

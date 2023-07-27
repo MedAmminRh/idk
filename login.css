@@ -70,10 +70,14 @@ p{
 button:hover{
     background-color: black;
     cursor: pointer;
+    border-radius: 12px;
+
     color: yellow;
 }
 button:active{
     opacity: 0.6;
+    border-radius: 12px;
+
 }
 img{
     width: 100px;
