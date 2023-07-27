@@ -64,9 +64,14 @@ button{
     color   0.4s,
     opacity 0.3s;
 }
+
 p{
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 5px;
     font-size: 12px;
 }
+
 button:hover{
     background-color: black;
     cursor: pointer;
